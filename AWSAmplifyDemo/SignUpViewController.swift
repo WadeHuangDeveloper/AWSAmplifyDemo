@@ -48,12 +48,12 @@ class SignUpViewController: UIViewController {
     // MARK: - Methods
     
     private func initializeUI() {
-        usernameTextField.text = ""
+        usernameTextField.text = "+886983468841"
         usernameTextField.delegate = self
-        passwordTextField.text = ""
+        passwordTextField.text = "@Test123"
         passwordTextField.isSecureTextEntry = true
         passwordTextField.delegate = self
-        emailTextField.text = ""
+        emailTextField.text = "wadehuangdeveloper@gmail.com"
         emailTextField.delegate = self
         
         requiredLabels.forEach({ $0.isHidden = true })
